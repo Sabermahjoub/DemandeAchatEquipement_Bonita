@@ -1,3 +1,3 @@
-## 📄 Project Description
+## 📄 Project Description (in French)
 
-[Click here to view the full project description (PDF)](Rapport Processus.pdf)
+[Click here to view the full project description (PDF)](Rapport%20Processus.pdf)
