@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.Commande">
+            <fields>
+                <relationField type="AGGREGATION" reference="com.company.model.DemandeAchat" fetchType="LAZY" name="demandeAchat" nullable="false" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.model.Fournisseur" fetchType="LAZY" name="fournisseur" nullable="false" collection="false"/>
+                <field type="LOCALDATE" length="255" name="dateCommande" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.DemandeAchat">
+            <fields>
+                <field type="STRING" length="255" name="nomEquipement" nullable="true" collection="true">
+                    <description>Le nom de l'équipement</description>
+                </field>
+                <field type="STRING" length="255" name="justification" nullable="false" collection="false">
+                    <description>Justification de l'achat de l'équipement</description>
+                </field>
+                <field type="STRING" length="255" name="typeEquipement" nullable="false" collection="false">
+                    <description>Le type de l'équipement</description>
+                </field>
+                <field type="BOOLEAN" length="255" name="urgence" nullable="false" collection="false">
+                    <description>Urgence de l'équipement</description>
+                </field>
+                <field type="LOCALDATE" length="255" name="dateDemande" nullable="false" collection="false"/>
+                <field type="BOOLEAN" length="255" name="decision" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="cin" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Depenses">
+            <fields>
+                <field type="INTEGER" length="255" name="somme" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Fournisseur">
+            <fields>
+                <field type="STRING" length="255" name="nomFournisseur" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="adresseFournisseur" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="prixTotal" nullable="false" collection="false"/>
+                <field type="BOOLEAN" length="255" name="confirmation" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Installation">
+            <fields>
+                <relationField type="AGGREGATION" reference="com.company.model.DemandeAchat" fetchType="LAZY" name="equipement" nullable="false" collection="false"/>
+                <field type="DATE" length="255" name="dateInstallation" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Test">
+            <fields>
+                <relationField type="AGGREGATION" reference="com.company.model.Depenses" fetchType="LAZY" name="test" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>

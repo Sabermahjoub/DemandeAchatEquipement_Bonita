@@ -1,0 +1,895 @@
+{
+  "id" : "SuccessForm",
+  "name" : "SuccessForm",
+  "type" : "form",
+  "uuid" : "0a66dd8c-d954-46f6-b6ce-59eeeab9eea8",
+  "modelVersion" : "2.6",
+  "lastUpdate" : 1744844382343,
+  "description" : "Page generated with Bonita UI designer",
+  "rows" : [
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : { },
+        "reference" : "384278d2-8cec-4687-a4c1-494b2d7be3b9",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "level" : {
+                  "type" : "constant",
+                  "value" : "Level 1"
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "{{ task.displayName }}"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "center"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                }
+              },
+              "reference" : "155c1bd6-846a-449a-a4d7-f52f5be50da2",
+              "hasValidationError" : false,
+              "id" : "pbTitle",
+              "description" : ""
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "allowHtml" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "label" : {
+                  "type" : "interpolation"
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "{{ task.displayDescription }}"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "left"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                }
+              },
+              "reference" : "d58f03b3-bafd-458f-8cc3-48b3fd77d43a",
+              "hasValidationError" : false,
+              "id" : "pbText",
+              "description" : ""
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "type" : "formContainer",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "6e33aed3-fc31-4adb-b72a-a31a065302d6",
+        "hasValidationError" : false,
+        "id" : "pbFormContainer",
+        "container" : {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12
+          },
+          "propertyValues" : { },
+          "reference" : "18dd9081-cd68-4b03-b0d8-0505e320bf7a",
+          "hasValidationError" : false,
+          "id" : "pbContainer",
+          "rows" : [
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 6,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 6
+                },
+                "propertyValues" : {
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "level" : {
+                    "type" : "constant",
+                    "value" : "Level 3"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Votre demande d'achat est validée. Prêtez pour une installation dans la date indiquée!"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  }
+                },
+                "reference" : "48326386-5d4d-4673-b2c8-d0c3e0285011",
+                "hasValidationError" : false,
+                "id" : "pbTitle",
+                "description" : ""
+              },
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 6,
+                  "lg" : 6
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "srcType" : {
+                    "type" : "constant",
+                    "value" : "URL"
+                  },
+                  "url" : {
+                    "type" : "constant",
+                    "value" : "data:image/png;base64,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"
+                  },
+                  "assetName" : {
+                    "type" : "constant"
+                  },
+                  "alt" : {
+                    "type" : "interpolation"
+                  }
+                },
+                "reference" : "ce019aaf-95ac-4d5d-af86-3cd54f1558b3",
+                "hasValidationError" : false,
+                "id" : "pbImage"
+              }
+            ],
+            [
+              {
+                "type" : "container",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "repeatedCollection" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "db8c9e6e-837a-4441-8b80-85fb6ce8b2de",
+                "hasValidationError" : false,
+                "id" : "pbContainer",
+                "rows" : [
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "level" : {
+                          "type" : "constant",
+                          "value" : "Level 4"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "Nom Equipement"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "center"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        }
+                      },
+                      "reference" : "95dcf60b-9908-4cf6-9785-373e1ebda10c",
+                      "hasValidationError" : false,
+                      "id" : "pbTitle",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "container",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "repeatedCollection" : {
+                          "type" : "variable",
+                          "value" : "demandeAchat.nomEquipement"
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "636b6206-d759-4dd7-9983-b340765a67e4",
+                      "hasValidationError" : false,
+                      "id" : "pbContainer",
+                      "rows" : [
+                        [
+                          {
+                            "type" : "component",
+                            "dimension" : {
+                              "md" : 12,
+                              "sm" : 12,
+                              "xs" : 12,
+                              "lg" : 12
+                            },
+                            "propertyValues" : {
+                              "labelHidden" : {
+                                "type" : "constant",
+                                "value" : true
+                              },
+                              "hidden" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "labelPosition" : {
+                                "type" : "constant",
+                                "value" : "top"
+                              },
+                              "cssClasses" : {
+                                "type" : "constant",
+                                "value" : ""
+                              },
+                              "labelWidth" : {
+                                "type" : "constant",
+                                "value" : 0
+                              },
+                              "readOnly" : {
+                                "type" : "constant",
+                                "value" : true
+                              },
+                              "label" : {
+                                "type" : "interpolation",
+                                "value" : ""
+                              },
+                              "placeholder" : {
+                                "type" : "constant"
+                              },
+                              "type" : {
+                                "type" : "constant",
+                                "value" : "text"
+                              },
+                              "dimension" : {
+                                "type" : "constant",
+                                "value" : 12
+                              },
+                              "value" : {
+                                "type" : "variable",
+                                "value" : "demandeAchat.nomEquipement"
+                              },
+                              "required" : {
+                                "type" : "constant",
+                                "value" : true
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "minLength" : {
+                                "type" : "constant",
+                                "value" : ""
+                              },
+                              "maxLength" : {
+                                "type" : "constant",
+                                "value" : ""
+                              },
+                              "debounce" : {
+                                "type" : "constant",
+                                "value" : 0
+                              },
+                              "min" : {
+                                "type" : "constant"
+                              },
+                              "max" : {
+                                "type" : "constant"
+                              },
+                              "step" : {
+                                "type" : "constant",
+                                "value" : 1
+                              }
+                            },
+                            "reference" : "116af6d2-740a-427a-a351-75628c37762d",
+                            "hasValidationError" : false,
+                            "id" : "pbInput",
+                            "description" : ""
+                          }
+                        ]
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Type Equipement"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "demandeAchat.typeEquipement"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "26270b73-141a-4abc-be05-b764def0e004",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!demandeAchat.dateDemande"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Date Demande"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{demandeAchat.dateDemande|uiDate}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        }
+                      },
+                      "reference" : "035d41b8-6a11-4769-894f-c472296e9571",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Date d'installation prévue (informatique)"
+                  },
+                  "level" : {
+                    "type" : "constant",
+                    "value" : "Level 4"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "center"
+                  }
+                },
+                "reference" : "4f368ded-4f5e-4979-86be-f92e3ff3b196",
+                "hasValidationError" : false,
+                "id" : "pbTitle"
+              }
+            ],
+            [
+              {
+                "type" : "container",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "repeatedCollection" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "1639d026-0250-4d67-94a0-179e146bd724",
+                "hasValidationError" : false,
+                "id" : "pbContainer",
+                "rows" : [
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "dateFormat" : {
+                          "type" : "constant",
+                          "value" : "MM/dd/yyyy"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Date Installation"
+                        },
+                        "type" : {
+                          "type" : "constant"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "todayLabel" : {
+                          "type" : "constant",
+                          "value" : "Today"
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "showToday" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "placeholder" : {
+                          "type" : "constant",
+                          "value" : "Enter a date (mm/dd/yyyy)"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "installation.dateInstallation"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        }
+                      },
+                      "reference" : "6e0b9764-4570-4e42-9d9e-8c7e5ac6450a",
+                      "hasValidationError" : false,
+                      "id" : "pbDatePicker",
+                      "description" : ""
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "allowHtml" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "hidden" : {
+                    "type" : "expression",
+                    "value" : "!formOutput._submitError.message"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : "alert alert-danger col-lg-6 col-lg-offset-3"
+                  },
+                  "label" : {
+                    "type" : "interpolation"
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "<strong>Debug message</strong>\n<br/>\n{{formOutput._submitError.message}}\n{{submit_errors_list}}"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "e50d342b-094a-4142-93b7-cc7f7b2264bc",
+                "hasValidationError" : false,
+                "id" : "pbText",
+                "description" : ""
+              }
+            ]
+          ]
+        }
+      }
+    ]
+  ],
+  "variables" : {
+    "demandeAchat" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.demandeAchat_ref.link}}"
+      ],
+      "exposed" : false
+    },
+    "task" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}"
+      ],
+      "exposed" : false
+    },
+    "submit_errors_list" : {
+      "type" : "expression",
+      "value" : [
+        "if($data.formOutput && $data.formOutput._submitError && $data.formOutput._submitError.explanations){",
+        "\tconst liElements = $data.formOutput._submitError.explanations",
+        "\t\t.filter(cause => cause !== null)",
+        "\t\t.map(cause => \"<li>\" + cause + \"</li>\")",
+        "\t\t.join('');",
+        "\tif(liElements){",
+        "\t\treturn \"<ul>\" + liElements + \"</ul>\";",
+        "\t}",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "formOutput" : {
+      "type" : "expression",
+      "value" : [
+        "if( $data.installation && $data.installation_equipement && $data.demandeAchat ){",
+        "\t//attach lazy references variables to parent variables",
+        "\t$data.installation.equipement = $data.installation_equipement;",
+        "\treturn {",
+        "\t\t//map installation variable to expected task contract input",
+        "\t\tinstallationInput: {",
+        "\t\t\tequipement: $data.installation.equipement ? {",
+        "\t\t\t\tpersistenceId_string: $data.installation.equipement.persistenceId_string !== undefined ? $data.installation.equipement.persistenceId_string : null",
+        "\t\t\t} : null,",
+        "\t\t\tdateInstallation: $data.installation.dateInstallation !== undefined ? $data.installation.dateInstallation : null",
+        "\t\t},",
+        "\t\t//map demandeAchat variable to expected task contract input",
+        "\t\tdemandeAchatInput: {",
+        "\t\t\tnomEquipement: $data.demandeAchat.nomEquipement !== undefined ? $data.demandeAchat.nomEquipement : null,",
+        "\t\t\ttypeEquipement: $data.demandeAchat.typeEquipement !== undefined ? $data.demandeAchat.typeEquipement : null",
+        "\t\t}",
+        "\t}",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "installation" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.installation_ref.link}}"
+      ],
+      "exposed" : false
+    },
+    "context" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}/context"
+      ],
+      "exposed" : false
+    },
+    "installation_equipement" : {
+      "type" : "url",
+      "value" : [
+        "{{installation|lazyRef:'equipement'}}"
+      ],
+      "exposed" : false
+    },
+    "taskId" : {
+      "type" : "urlparameter",
+      "value" : [
+        "id"
+      ],
+      "exposed" : false
+    },
+    "demandeAchat_query" : {
+      "type" : "url",
+      "value" : [
+        "../API/bdm/businessData/com.company.model.DemandeAchat?q=find&p=0&c=99"
+      ],
+      "exposed" : false
+    }
+  },
+  "assets" : [
+    {
+      "id" : "3a540838-c2b5-4c86-8edf-b5c6cfc0233b",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "c90d1d3f-764b-45c9-878c-c2fb7eb2184a",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "webResources" : [ ],
+  "hasValidationError" : false
+}
